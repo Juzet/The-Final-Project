@@ -1,23 +1,25 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
 </head>
-<div class="nav">
-	<ul>
-	<div id="a">
-	<a href="http://localhost/landingpage/projects.php">PROJECTS</a>
-    <a href="http://localhost/landingpage/about.php">ABOUT ME</a>		  
-   	<a href="http://localhost/landingpage/contact.php">CONTACT</a>
-   	</div>
-   	</ul>
-</div>
+<nav>
+	<a href="about.php">About Me</a>
+	<a href="projects.php">My Projects</a>
+	<a href="contact.php">Contact Me</a>
+</nav>
 <body>
-	<div id="next">
-		Juzet Arana
+	<div id="juzet">
+		<p>Juzet Arana</p>
 	</div>
-
+	<br>
+	</br>
+	<div>
+		<p class="arana">
+			"Your beliefs become your thoughts, your thoughts become your words, your words become your actions, your actions become your habits, your habits become your values, your values become your DESTINY."
+			<br>
+			~Ghandi~
+			</br>
+		</p>
+	</div>
 </body>
 </html>

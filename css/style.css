@@ -1,95 +1,33 @@
+/*body*/
 body {
-	background-image: url("https://ununsplash.imgix.net/photo-1428908728789-d2de25dbd4e2?fit=crop&fm=jpg&h=700&q=75&w=1050");
-	background-repeat: no-repeat;
-	background-size: cover;
-
+	background-color: black;
 }
-#one {
-	font-size: 25px;
-	display: inline-block;
-}
-#next {
-	font-size: 100px;
-	text-align: center;
-	padding-top: 15%;
-	font-family: 'Roboto Condensed', sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.nav {
-  display: block;
-  width: cover;
-  height: 150px;
-  background-color: #3f3f3f;
-  font-size: 40px;
-  text-align: center;
-  /*padding-top: 2%;*/
-}
-#a {
-	text-decoration: none;
-	padding: 50px;
-	color: white;
-	font-size: 50px;
-	opacity: .85;
-}
+/*a tags*/
 a {
-	text-align: center;
-	padding: 50px;
 	text-decoration: none;
+	font-size: 25px;
 	color: white;
-	opacity: 0.8;
-	font-family: 'Roboto Condensed', sans-serif;
+	margin: 50px;
 }
-a:hover { 
-    color: #99E6FF;
+a:hover {
+	color: gray;
 }
-input {
-	width: 300px;
-	height: 45px;
-	text-align: left;
-	font-family: 'Roboto Condensed', sans-serif;
+/*div id juzet*/
+#juzet {
+	text-align: center;
+	margin-left: 40%;
+	margin-top: 15%; 
+	height: 100px;
+	width: 500px;
+	color: white;
+	font-size: 100px;
 }
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
-	body {
-		background-repeat: no-repeat;
-		background-color: #A9E2F3;
-		background-image: none;
- 	}
- 	#next {
-		font-size: 100px;
-		text-align: center;
-		padding-top: 50%;
-		font-family: 'Roboto Condensed', sans-serif;
-	}
-	a {
-		text-align: left;
-/*		margin: 15%;*/
-		text-decoration: none;
-		color: white;
-		opacity: 0.8;
-		font-family: 'Roboto Condensed', sans-serif;
-	}
-	#a {
-		text-decoration: none;
-		padding: 20px;
-		color: white;
-		font-size: 45px;
-		opacity: .85;
-		display: inline-block;
-	}
-	.nav {
- 		display: block;
-  	width: cover;
-  	height: 200px;
-  	background-color: #3f3f3f;
-  	font-size: 40px;
-  	text-align: center;
-  	padding-top: 5%;
-  		/*padding-top: 2%;*/
+/*p class arana*/
+.arana {
+	color: white;
+	text-align: center;
+	font-size: 24px;
 }
-
+.arana:hover {
+	color: gray;
 }
