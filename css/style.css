@@ -11,7 +11,7 @@ body {
 #next {
 	font-size: 100px;
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 15%;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -23,7 +23,7 @@ body {
 .nav {
   display: block;
   width: cover;
-  height: 200px;
+  height: 150px;
   background-color: #3f3f3f;
   font-size: 40px;
   text-align: center;
@@ -45,11 +45,51 @@ a {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 a:hover { 
-    color: lightblue;
+    color: #99E6FF;
 }
 input {
 	width: 300px;
 	height: 45px;
 	text-align: left;
 	font-family: 'Roboto Condensed', sans-serif;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+	body {
+		background-repeat: no-repeat;
+		background-color: #A9E2F3;
+		background-image: none;
+ 	}
+ 	#next {
+		font-size: 100px;
+		text-align: center;
+		padding-top: 50%;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+	a {
+		text-align: left;
+/*		margin: 15%;*/
+		text-decoration: none;
+		color: white;
+		opacity: 0.8;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+	#a {
+		text-decoration: none;
+		padding: 20px;
+		color: white;
+		font-size: 45px;
+		opacity: .85;
+		display: inline-block;
+	}
+	.nav {
+ 		display: block;
+  	width: cover;
+  	height: 200px;
+  	background-color: #3f3f3f;
+  	font-size: 40px;
+  	text-align: center;
+  	padding-top: 5%;
+  		/*padding-top: 2%;*/
+}
+
 }

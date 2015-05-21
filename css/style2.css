@@ -4,3 +4,26 @@ body {
 a {
 	text-decoration: none;
 }
+#carousel-example-generic {
+	width: 500px;
+	height: 500px;
+	margin-left: 35%;
+	margin-top: 5%;
+}
+.inline {
+	display: inline-block;
+}
+.carousel-inner {
+	width: 500px;
+	height: 500px;
+	text-align: center;
+}
+.item active {
+	height: 500px;
+	width: 500px;
+}
+
+.item {
+	height: 500px;
+	width: 500px;
+}
