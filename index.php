@@ -9,7 +9,7 @@
 </nav>
 <body>
 	<div id="juzet">
-		<p>Juzet Arana</p>
+		<p id="name">Juzet Arana</p>
 	</div>
 	<br>
 	</br>
