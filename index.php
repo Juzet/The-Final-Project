@@ -15,9 +15,9 @@
 	</br>
 	<div>
 		<p class="arana">
-			"Your beliefs become your thoughts, your thoughts become your words, your words become your actions, your actions become your habits, your habits become your values, your values become your DESTINY."
+			"Great web design without functionality is like a sports car with no engine."
 			<br>
-			~Ghandi~
+			~Paul Cookson~
 			</br>
 		</p>
 	</div>
