@@ -9,7 +9,7 @@ body {
 /*a tags*/
 a {
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 20px;
 	color: white;
 	margin: 50px;
 }
@@ -40,7 +40,7 @@ a:hover {
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
 	body {
-		background-color: black;		
+		background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAABaCAMAAAAIGK1gAAAAA1BMVEUAAACnej3aAAAAJUlEQVRoge3BgQAAAADDoPlTX+EAVQEAAAAAAAAAAAAAAAAAvAY4mgABRiyBfgAAAABJRU5ErkJggg==");		
 		background-repeat: no-repeat;
 		padding-top: 13%;
 	}
@@ -50,8 +50,9 @@ a:hover {
 		padding-left: 1%;
 	}
 	#name {
-		font-size: 100px;
+		font-size: 90px;
 		width: cover;
+		color: white;
 	}
 	#juzet {
 		text-align: left;
@@ -61,6 +62,8 @@ a:hover {
 	}
 	.arana {
 		padding-top: 10%;
+		color: white;
+		font-size: 50px;
 	}
 
 }

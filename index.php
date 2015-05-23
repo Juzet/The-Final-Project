@@ -3,9 +3,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <nav>
-	<a href="about.php">About Me</a>
-	<a href="projects.php">My Projects</a>
-	<a href="contact.php">Contact Me</a>
+	<a href="about.php">ABOUT ME</a>
+	<a href="projects.php">MY PROJECTS</a>
+	<a href="contact.php">CONTACT ME</a>
 </nav>
 <body>
 	<div id="juzet">
