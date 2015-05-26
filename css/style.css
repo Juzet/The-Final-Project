@@ -1,69 +1,71 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
-@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,800);
-/*body*/
 body {
-	background-image: url("https://ununsplash.imgix.net/26/camera-keys.jpg?fit=crop&fm=jpg&h=700&q=75&w=1050");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-/*a tags*/
-a {
-	text-decoration: none;
-	font-size: 20px;
-	color: white;
-	margin: 50px;
-}
-a:hover {
-	color: #A4A4A4;
-}
-/*div id juzet*/
-#juzet {
-	text-align: center;
-	padding-left: 25%;
-	margin-top: 15%; 
-	height: 100px;
-	width: cover;
-}
-#name {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 150px;
-	padding-right: 28%;
-	color: #2A0A0A;
-}
-/*p class arana*/
-.arana {
-	font-family: 'Merriweather Sans', sans-serif;
-	color: #2A0A0A;
-	text-align: center;
-	font-size: 30px;
-	padding-top: 4%;
-}
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
-	body {
-		background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAABaCAMAAAAIGK1gAAAAA1BMVEUAAACnej3aAAAAJUlEQVRoge3BgQAAAADDoPlTX+EAVQEAAAAAAAAAAAAAAAAAvAY4mgABRiyBfgAAAABJRU5ErkJggg==");		
-		background-repeat: no-repeat;
-		padding-top: 13%;
-	}
-	a {
-		text-align: center;
-		font-size: 45px;
-		padding-left: 1%;
-	}
-	#name {
-		font-size: 90px;
-		width: cover;
-		color: white;
-	}
-	#juzet {
-		text-align: left;
-		width: cover;
-		height: 200px;
-		padding-top: 8%;
-	}
-	.arana {
-		padding-top: 10%;
-		color: white;
-		font-size: 50px;
-	}
+  background-image: url("https://download.unsplash.com/photo-1416339134316-0e91dc9ded92");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 
 }
+/*home page*/
+#page0 {
+  height:1100px;
+  width: cover;
+  color: black;
+  font-size: 120px;
+  text-align: center;
+  padding-top: 20%;
+}
+#pg {
+  font-size: 20px;
+  color: black;
+}
+#pg:hover{
+  font-size: 30px;
+  color: brown;
+}
+/*about page*/
+#page1 {
+  height:1100px;
+  width:cover;
+}
+#page2 {
+  height:1100px;
+  width: cover;
+}
+#page3 {
+  height:1100px;
+  width:cover;
+}
+.inner {
+  width: 800px;
+  height: 50px;
+  position: relative;
+}
+header {
+  position: fixed;
+  width: 100%;
+  padding-top: 10px;
+  background: #000;
+  transition: 0.7s all;
+  z-index: 100;
+  opacity: 0.6;
+}
+nav li {
+  display: inline-block;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 25px;
+  text-align: left;
+  /*transition: 0.3s all;*/
+}
+
+nav a:hover {
+  background: red;
+}
+

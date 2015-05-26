@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display);
-* { box-sizing: border-box; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; margin: 0; padding: 0; tap-highlight-color:rgba(0,0,0,0); }
-body {
+/** { box-sizing: border-box; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; margin: 0; padding: 0; tap-highlight-color:rgba(0,0,0,0); }*/
+/*body {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -10,8 +10,8 @@ body {
   font-weight: 100;
   color: #202020;
   font-smoothing: antialiased;
-}
-.container {
+}*/
+/*.container {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -20,7 +20,7 @@ body {
   height: 10em;
   margin: -5em -10em;
   text-align: center;
-}
+}*/
 /*a { 
   text-decoration: none;
   color: inherit;
@@ -133,7 +133,7 @@ h2 {
   margin: -1em auto 1.5em auto;
 }
 
-.contact a {
+/*.contact a {
   display: inline-block;
   overflow: hidden;
   opacity: 0;
@@ -159,7 +159,7 @@ h2 {
 .contact a:nth-child(4) { animation-delay: 2.65s; }
 
 .contact a:hover { color: #39F; }
-
+*/
 /*.icon {
 	position: relative;
   display: block;

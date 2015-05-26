@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+body{
+  font-family: arial;
+  font-size: 200%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.parallax {
+  height: 500px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 300px;
+}
+
+.parallaxLayer{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin-x: 100%;
+}
+
+.parallaxLayerBase{
+  transform: translateZ(0);
+  z-index: 4;
+}
+
+.parallaxLayerBack{
+  transform: translateZ(-500px) scale(3);
+  z-index: 2;
+}
+
+.parallaxGroup{
+  position: relative;
+  height: 500px;
+  height: 100vh;
+  transition: .5s;
+  transform-style: preserve-3d;
+}
+.arana {
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #4C0000;
+	text-align: center;
+	font-size: 30px;
+	/*padding-top: 4%;*/
+	position: absolute;
+}
+.center{
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color:  #4C0000;
+}
+.slogan {
+	font-family: 'Playfair Display', serif;
+	text-align: left;
+  position: relative;
+  display: block;
+  overflow: hidden; 
+  width: 0em;
+  height: 1.25em;
+  /*margin: 1em auto;*/
+  font-size: 3em;
+  line-height: 1.0em;
+  border-right: .125em solid black;
+  /*box-sizing: content-box;*/
+  animation-name: blink-start, typing, blink-end;
+  animation-duration: 1s, 1s, 1s;
+  animation-timing-function: linear, steps(13, end), linear;
+  animation-delay: 3s, 4s, 5s;
+  animation-iteration-count: 1, 1, infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.slogan span {
+	text-align: left;
+  display: block;
+ 	margin-right: 50%; 
+  width: 20em;
+}
+
+@keyframes typing {
+  from { width: 0em; }
+  to   { width: 9.5em; }
+}
+
+@keyframes blink-start {
+  from, to { border-color: #39F; }
+  50% { border-color: transparent; }
+}
+
+@keyframes blink-end {
+  from, to { border-color: #39F; }
+  50% { border-color: transparent; }
+}
+#group1{
+  z-index: 5;
+}
+
+#group1 .parallaxLayerBase{
+  background-image: url("https://ununsplash.imgix.net/26/camera-keys.jpg?fit=crop&fm=jpg&h=700&q=75&w=1050");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#group2{
+  z-index: 3;
+}
+
+#group2 .parallaxLayerBack{
+  background-image: url("https://download.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+#group3{
+  z-index: 3;
+}
+
+#group3 .parallaxLayerBase{
+  background-image: url("https://download.unsplash.com/photo-1415226620463-aedee27159c5");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
