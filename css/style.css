@@ -14,7 +14,6 @@ body {
   color: black;
   font-size: 120px;
   text-align: center;
-  padding-top: 20%;
 }
 #pg {
   font-size: 20px;
@@ -29,6 +28,10 @@ body {
   height:1100px;
   width:cover;
 }
+#juzet {
+  padding-top: 20%;
+}
+/*projects page*/
 #page2 {
   height:1100px;
   width: cover;
@@ -54,6 +57,7 @@ header {
 nav li {
   display: inline-block;
   float: left;
+  text-decoration: none;
 }
 
 nav a {
@@ -62,10 +66,23 @@ nav a {
   text-decoration: none;
   padding: 25px;
   text-align: left;
-  /*transition: 0.3s all;*/
+  text-decoration: none;
+  font-size: 20px;
 }
 
 nav a:hover {
   background: red;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 25px;
 }
-
+img {
+  margin-top: 13%;
+  margin-left: 5%;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+#modal {
+  color: pink;
+}
