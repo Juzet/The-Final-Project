@@ -5,6 +5,10 @@ body {
 /*  background-image: url("https://download.unsplash.com/photo-1416339134316-0e91dc9ded92");
   background-repeat: no-repeat;
   background-size: cover;*/
+   background-image: url("https://download.unsplash.com/photo-1423683249427-8ca22bd873e0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   background-attachment: fixed;
   margin: 0;
   padding: 0;
@@ -18,19 +22,9 @@ body {
   color: black;
   font-size: 120px;
   text-align: center;
-  background-image: url("https://download.unsplash.com/photo-1423683249427-8ca22bd873e0");
+  /*background-image: url("https://download.unsplash.com/photo-1423683249427-8ca22bd873e0");*/
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-}
-
-/*about page*/
-#page1 {
-  height:1100px;
-  width:cover;
-  background-image: url("https://download.unsplash.com/photo-1425136738262-212551713a58");
-   background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 #juzet {
@@ -38,11 +32,37 @@ body {
   padding-top: 20%;
 }
 
+/*about page*/
+#page1 {
+  height:1100px;
+  width:cover;
+  /*background-image: url("https://download.unsplash.com/photo-1425136738262-212551713a58");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#con {
+  width: 400px;
+  margin-top: 38%;
+  height: 300px;
+  background-color: pink;
+  margin-left: 25%;
+}
+#cont {
+  margin-top: 3%;
+  width: 1000px;
+  height: 300px;
+  margin-left: 28%;
+  background-color: white;
+  opacity: .5;
+}
+
+
 /*projects page*/
 #page2 {
   height:1100px;
   width: cover;
-  background-image: url("https://download.unsplash.com/photo-1414170562806-9d670e90c091");
+  /*background-image: url("https://download.unsplash.com/photo-1414170562806-9d670e90c091");*/
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -50,7 +70,7 @@ body {
 #page3 {
   height:1100px;
   width:cover;
-  background-image: url("https://download.unsplash.com/photo-1425136738262-212551713a58");
+  /*background-image: url("https://download.unsplash.com/photo-1425136738262-212551713a58");*/
   background-attachment: fixed;
 }
 .inner {
@@ -87,24 +107,28 @@ nav a {
 nav a:hover {
   background: gray;
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 20px;
   border-radius: 25px;
 }
-img {
+/*img {
   margin-top: 13%;
   margin-left: 5%;
   border: 2px solid white;
   border-radius: 5px;
-}
+}*/
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 body { background-color: #eee; }
 
 .footer-social-links{
-    font-size: 14px;
+  font-size: 14px;
   text-align: center;
-  margin-top: 20%;
+ padding-top: 20%;
+
+}
+#contact {
+  padding-top: 20%;
 }
 .footer-social-links a{
     width: 25px;
@@ -161,3 +185,207 @@ body { background-color: #eee; }
 .footer-social-links a:hover:before{
     background: #111;
 }
+.wrap {
+  width: cover;
+  padding-top: 20%;
+  padding-left: 45%;
+}
+h1 {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  width: cover;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+  margin: 5px;
+}
+img {
+  width: 50px;
+  height: 50px;
+  -webkit-transition:all .7 ease;
+  -moz-transition:all .7s ease;
+  -o-transition:all .7s ease;
+  transition:all .7s ease;
+  filter: contrast(0%);
+  -webkit-filter: contrast(0%);
+  -moz-filter: contrast(0%);
+  -ms-filter: contrast(0%);
+  -o-filter: contrast(0%);
+}
+img:hover {
+   -webkit-transform:rotate(360deg);
+   -moz-transform:rotate(360deg);
+   -ms-transform:rotate(360deg);
+   -o-transform:rotate(360deg); 
+   transform:rotate(360deg);
+   filter: contrast(0%); 
+   -webkit-filter:contrast(100%);  
+   -moz-filter: contrast(100%);
+   -ms-filter:contrast(100%);
+   -o-filter: contrast(100%);
+}
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  }
+
+html, body {
+  height: 100%;
+  }
+
+::-webkit-scrollbar {width:12px}
+::-webkit-scrollbar-thumb {background: #222;}
+::-webkit-scrollbar-track {background: transparent}
+
+::selection {
+  background: #222;
+  color: white;
+  }
+::-moz-selection {
+  background: #222;
+  color: white;
+  }
+/*
+body * {
+  transform-style: preserve-3d; /* am i doing this wrong? */
+  /*}*/
+
+/*body {
+  background-image:
+    linear-gradient(
+      hsl(240,20%,20%),
+      hsl(30,30%,40%)
+      );
+  color: #222;
+  font-family: 'Gabriela', serif;
+  perspective: 70em;/*in your face*/
+  /
+
+h1, p {
+  margin: 5% 0;
+  }
+
+.book {
+  height: 80%;
+  max-height: 500px;
+  min-height: 300px;
+  width: 600px;
+  background-image: 
+    linear-gradient(
+      90deg,
+      hsla(30,40%,50%,.6),
+      hsla(30,40%,20%,.9),
+      hsla(30,40%,50%,.4) 90%
+      ),
+    url('http://inspirationhut3.inspirationhut.netdna-cdn.com/wp-content/uploads/2012/11/Old-Paper-Texture-3.jpg');
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  margin: auto;
+  
+  border: 10px solid hsla(30,10%,30%,1);
+  border-radius: 5px;
+  box-shadow: 0 0 150px hsla(170,0%,0%,.4);
+  }
+
+.page {
+  height: 100%;
+  width: 50%;
+  border-right: 10px solid transparent;
+  position: absolute;
+  top: 0; right: 0;
+  transform-origin: 0 50%;
+  transition: .6s;
+  animation: unflip .3s linear;
+  }
+  [class*='side'] {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: violet;
+    background-image: url('http://inspirationhut3.inspirationhut.netdna-cdn.com/wp-content/uploads/2012/11/Old-Paper-Texture-3.jpg');
+    background-size: 100% 100%;
+    backface-visibility: hidden;
+    overflow: auto;
+    padding: 5% 8%;
+    }
+  .side-1 {
+    z-index: 2;
+    box-shadow: inset 50px 0 50px rgba(0,0,0,.5);
+    transition: .5s;
+    }
+  .side-2 {
+    background-color: lightgreen;
+    transform:
+      rotateY(180deg);
+    box-shadow: inset -50px 0 50px rgba(0,0,0,.5);
+    }
+  .flipped > .side-1 {
+    box-shadow: inset 300px 0 50px rgba(0,0,0,.8);   
+    transition: .6s;
+    }
+  .flipped > [class*='side'] {
+    pointer-events: auto;
+    }
+.page:after {
+  width: 100px;
+  height: 50px;
+  background-color: #555;
+  position: absolute;
+  top: 0; bottom: 0; right: -100px;
+  margin: auto;
+  color: white;
+  text-shadow: 0 -1px 0 #222;
+  line-height: 50px;
+  text-align: center;
+  font-family: monospace;
+  content: 'next-page';
+  animation: hide .8s linear;
+  }
+  .page.flipped:after {
+    content: 'prev-page';
+    transform:
+      rotateY(180deg);
+    pointer-events: auto;
+    }
+  /* to hide on flip animation */
+  @keyframes hide {
+    0% {opacity: 0;}
+    85% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+.flipped {
+  transform:
+    rotateY(-180deg);
+  pointer-events: none;
+  /*animation: flip .3s linear;
+  animation-fill-mode: forwards;*/
+  }
+  
+.no-anim,
+  .no-anim:after {
+  animation: none;/* disable animation when page loads */
+  }
+@keyframes flip {
+  to {
+    transform:
+      rotateY(-180deg);    
+    }
+  }
+@keyframes unflip {
+  from {
+    transform:
+      rotateY(-180deg);    
+    }
+  to {
+    transform:
+      rotateY(0deg);    
+    }
+  }
